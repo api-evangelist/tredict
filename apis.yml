@@ -1,0 +1,32 @@
+aid: tredict
+name: Tredict
+description: "Get and set activities, health data and more"
+url: https://www.tredict.com/blog/oauth_docs/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Sports & Fitness"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Sports And Fitness
+  - Public APIs
+apis:
+  - name: Tredict
+    description: "Get and set activities, health data and more"
+    humanURL: https://www.tredict.com/blog/oauth_docs/
+    baseURL: https://www.tredict.com/blog/oauth_docs/
+    tags:
+      - Sports And Fitness
+    properties:
+      - type: Documentation
+        url: https://www.tredict.com/blog/oauth_docs/
+common:
+  - type: Website
+    url: https://www.tredict.com/blog/oauth_docs/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
