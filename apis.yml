@@ -1,4 +1,16 @@
 aid: tredict
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tredict.png
 name: Tredict
 description: "Get and set activities, health data and more"
 url: https://www.tredict.com/blog/oauth_docs/
