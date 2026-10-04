@@ -33,13 +33,13 @@ x-category: "Sports & Fitness"
 x-tier: 3
 x-tier-reason: bulk-registered-from-public-apis
 tags:
-  - Sports And Fitness
   - Public APIs
+  - Fitness
+  - Workout Tracking
 apis:
   - name: Tredict
     description: "Get and set activities, health data and more"
     humanURL: https://www.tredict.com/blog/oauth_docs/
-    baseURL: https://www.tredict.com/blog/oauth_docs/
     tags:
       - Sports And Fitness
     properties:
@@ -57,3 +57,5 @@ common:
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+x-tags-removed:
+- Sports And Fitness
