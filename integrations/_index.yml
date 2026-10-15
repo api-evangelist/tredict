@@ -19,6 +19,19 @@
     registered_name: com.tredict/mcp-server
     register_id: com.tredict/mcp-server
     detected_by: sweep-agent-tools.py
-    detected: '2026-10-14'
+    detected: '2026-10-15'
+  status: not-a-workflow
+  arazzo: null
+- slug: tredict-polar-own
+  label: Polar (own)
+  partner: polar
+  partner_name: Polar (own)
+  category: Polar AccessLink compatible app
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://www.polar.com/en/compatible-apps
+  source: edge
+  relationship: platform-app
   status: not-a-workflow
   arazzo: null

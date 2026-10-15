@@ -31,7 +31,27 @@ edges:
   - namespace-domain
   detected_by: sweep-agent-tools.py
   first_seen: '2026-10-14'
+- partner_name: Polar (own)
+  partner: polar
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://www.polar.com/en/compatible-apps
+  mirror_of: polar/integrations/polar-integration-edges.yml
+  apps:
+  - Tredict
+  listing_count: 1
+  detected: '2026-10-15'
+  detected_by: mirror-platform-listings.py
+  category: Polar AccessLink compatible app
 generated: '2026-10-14'
 method: searched
 checked:
 - https://registry.modelcontextprotocol.io/v0/servers
+- polar/integrations/polar-integration-edges.yml
+source:
+- polar/integrations/polar-integration-edges.yml
