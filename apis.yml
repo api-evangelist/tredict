@@ -40,7 +40,8 @@ apis:
   - name: Tredict
     description: "Get and set activities, health data and more"
     humanURL: https://www.tredict.com/blog/oauth_docs/
-    tags:
+    tags: []
+    tags_raw:
       - Sports And Fitness
     properties:
       - type: Documentation
